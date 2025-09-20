@@ -1,0 +1,83 @@
+body{
+
+    
+    background-image: url("../assets/polaroid2.jpg"),url("../assets/polaroid.jpg"),url("../assets/fondo_nubes.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 1000px 200px,200px 300px, center;
+    background-size: 250px, 250px, cover;
+    min-height: 100vh;
+
+  /*  
+  background-image: url(fondo_nubes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+    background-color: lightblue;*/
+    
+
+}
+
+h1{
+
+    color: rgb(235, 0, 137);
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+}
+
+nav{
+
+    background-color: rgb(238, 165, 199);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  nav a:hover {
+    background-color: #da739e;
+  }
+
+p{
+
+    color: rgb(235, 0, 137);
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+}
+
+audio{
+
+  display: block;
+  margin: 20px;
+
+}
+
+.img1{
+
+  position: absolute;
+  top: 30px;
+  left: 700px;
+  width: 400px;
+
+}
+
+.img2{
+
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  width: 400px;
+
+}
