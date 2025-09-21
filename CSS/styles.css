@@ -1,7 +1,7 @@
 body{
 
     
-    background-image: url("../assets/polaroid2.jpg"),url("../assets/polaroid.jpg"),url("../assets/fondo_nubes.jpg");
+    background-image: url("../assets/polaroid2.jpg"),url("../assets/polaroid.jpg"),url("../assets/descarga.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 1000px 200px,200px 300px, center;
     background-size: 250px, 250px, cover;
@@ -81,3 +81,4 @@ audio{
   width: 400px;
 
 }
+
